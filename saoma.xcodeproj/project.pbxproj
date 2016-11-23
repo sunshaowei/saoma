@@ -1,0 +1,371 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7390164F1D06C00E00532945 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7390164E1D06C00E00532945 /* main.m */; };
+		739016521D06C00E00532945 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 739016511D06C00E00532945 /* AppDelegate.m */; };
+		739016551D06C00E00532945 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 739016541D06C00E00532945 /* ViewController.m */; };
+		739016581D06C00E00532945 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 739016561D06C00E00532945 /* Main.storyboard */; };
+		7390165A1D06C00E00532945 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 739016591D06C00E00532945 /* Assets.xcassets */; };
+		7390165D1D06C00E00532945 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7390165B1D06C00E00532945 /* LaunchScreen.storyboard */; };
+		739016711D06C06600532945 /* QRCodeScanLine@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 739016661D06C06600532945 /* QRCodeScanLine@2x.png */; };
+		739016721D06C06600532945 /* ScanQR1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 739016671D06C06600532945 /* ScanQR1@2x.png */; };
+		739016731D06C06600532945 /* ScanQR2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 739016681D06C06600532945 /* ScanQR2@2x.png */; };
+		739016741D06C06600532945 /* ScanQR3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 739016691D06C06600532945 /* ScanQR3@2x.png */; };
+		739016751D06C06600532945 /* ScanQR4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7390166A1D06C06600532945 /* ScanQR4@2x.png */; };
+		739016761D06C06600532945 /* ZFConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 7390166C1D06C06600532945 /* ZFConst.m */; };
+		739016771D06C06600532945 /* ZFMaskView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7390166E1D06C06600532945 /* ZFMaskView.m */; };
+		739016781D06C06600532945 /* ZFScanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 739016701D06C06600532945 /* ZFScanViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7390164A1D06C00E00532945 /* saoma.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = saoma.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7390164E1D06C00E00532945 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		739016501D06C00E00532945 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		739016511D06C00E00532945 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		739016531D06C00E00532945 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		739016541D06C00E00532945 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		739016571D06C00E00532945 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		739016591D06C00E00532945 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7390165C1D06C00E00532945 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7390165E1D06C00E00532945 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		739016661D06C06600532945 /* QRCodeScanLine@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "QRCodeScanLine@2x.png"; sourceTree = "<group>"; };
+		739016671D06C06600532945 /* ScanQR1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ScanQR1@2x.png"; sourceTree = "<group>"; };
+		739016681D06C06600532945 /* ScanQR2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ScanQR2@2x.png"; sourceTree = "<group>"; };
+		739016691D06C06600532945 /* ScanQR3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ScanQR3@2x.png"; sourceTree = "<group>"; };
+		7390166A1D06C06600532945 /* ScanQR4@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ScanQR4@2x.png"; sourceTree = "<group>"; };
+		7390166B1D06C06600532945 /* ZFConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFConst.h; sourceTree = "<group>"; };
+		7390166C1D06C06600532945 /* ZFConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFConst.m; sourceTree = "<group>"; };
+		7390166D1D06C06600532945 /* ZFMaskView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFMaskView.h; sourceTree = "<group>"; };
+		7390166E1D06C06600532945 /* ZFMaskView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFMaskView.m; sourceTree = "<group>"; };
+		7390166F1D06C06600532945 /* ZFScanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFScanViewController.h; sourceTree = "<group>"; };
+		739016701D06C06600532945 /* ZFScanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFScanViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		739016471D06C00E00532945 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		739016411D06C00E00532945 = {
+			isa = PBXGroup;
+			children = (
+				7390164C1D06C00E00532945 /* saoma */,
+				7390164B1D06C00E00532945 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7390164B1D06C00E00532945 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7390164A1D06C00E00532945 /* saoma.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7390164C1D06C00E00532945 /* saoma */ = {
+			isa = PBXGroup;
+			children = (
+				739016641D06C06600532945 /* ZFScan */,
+				739016501D06C00E00532945 /* AppDelegate.h */,
+				739016511D06C00E00532945 /* AppDelegate.m */,
+				739016531D06C00E00532945 /* ViewController.h */,
+				739016541D06C00E00532945 /* ViewController.m */,
+				739016561D06C00E00532945 /* Main.storyboard */,
+				739016591D06C00E00532945 /* Assets.xcassets */,
+				7390165B1D06C00E00532945 /* LaunchScreen.storyboard */,
+				7390165E1D06C00E00532945 /* Info.plist */,
+				7390164D1D06C00E00532945 /* Supporting Files */,
+			);
+			path = saoma;
+			sourceTree = "<group>";
+		};
+		7390164D1D06C00E00532945 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7390164E1D06C00E00532945 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		739016641D06C06600532945 /* ZFScan */ = {
+			isa = PBXGroup;
+			children = (
+				739016651D06C06600532945 /* resource */,
+				7390166B1D06C06600532945 /* ZFConst.h */,
+				7390166C1D06C06600532945 /* ZFConst.m */,
+				7390166D1D06C06600532945 /* ZFMaskView.h */,
+				7390166E1D06C06600532945 /* ZFMaskView.m */,
+				7390166F1D06C06600532945 /* ZFScanViewController.h */,
+				739016701D06C06600532945 /* ZFScanViewController.m */,
+			);
+			path = ZFScan;
+			sourceTree = SOURCE_ROOT;
+		};
+		739016651D06C06600532945 /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				739016661D06C06600532945 /* QRCodeScanLine@2x.png */,
+				739016671D06C06600532945 /* ScanQR1@2x.png */,
+				739016681D06C06600532945 /* ScanQR2@2x.png */,
+				739016691D06C06600532945 /* ScanQR3@2x.png */,
+				7390166A1D06C06600532945 /* ScanQR4@2x.png */,
+			);
+			path = resource;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		739016491D06C00E00532945 /* saoma */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 739016611D06C00E00532945 /* Build configuration list for PBXNativeTarget "saoma" */;
+			buildPhases = (
+				739016461D06C00E00532945 /* Sources */,
+				739016471D06C00E00532945 /* Frameworks */,
+				739016481D06C00E00532945 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = saoma;
+			productName = saoma;
+			productReference = 7390164A1D06C00E00532945 /* saoma.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		739016421D06C00E00532945 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = kuanter;
+				TargetAttributes = {
+					739016491D06C00E00532945 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = LAQ6VHGZ28;
+					};
+				};
+			};
+			buildConfigurationList = 739016451D06C00E00532945 /* Build configuration list for PBXProject "saoma" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 739016411D06C00E00532945;
+			productRefGroup = 7390164B1D06C00E00532945 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				739016491D06C00E00532945 /* saoma */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		739016481D06C00E00532945 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				739016721D06C06600532945 /* ScanQR1@2x.png in Resources */,
+				739016741D06C06600532945 /* ScanQR3@2x.png in Resources */,
+				739016731D06C06600532945 /* ScanQR2@2x.png in Resources */,
+				7390165D1D06C00E00532945 /* LaunchScreen.storyboard in Resources */,
+				739016711D06C06600532945 /* QRCodeScanLine@2x.png in Resources */,
+				7390165A1D06C00E00532945 /* Assets.xcassets in Resources */,
+				739016581D06C00E00532945 /* Main.storyboard in Resources */,
+				739016751D06C06600532945 /* ScanQR4@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		739016461D06C00E00532945 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				739016771D06C06600532945 /* ZFMaskView.m in Sources */,
+				739016781D06C06600532945 /* ZFScanViewController.m in Sources */,
+				739016551D06C00E00532945 /* ViewController.m in Sources */,
+				739016521D06C00E00532945 /* AppDelegate.m in Sources */,
+				7390164F1D06C00E00532945 /* main.m in Sources */,
+				739016761D06C06600532945 /* ZFConst.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		739016561D06C00E00532945 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				739016571D06C00E00532945 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7390165B1D06C00E00532945 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7390165C1D06C00E00532945 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7390165F1D06C00E00532945 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		739016601D06C00E00532945 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		739016621D06C00E00532945 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = saoma/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kuanter.saoma;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		739016631D06C00E00532945 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = saoma/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kuanter.saoma;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		739016451D06C00E00532945 /* Build configuration list for PBXProject "saoma" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7390165F1D06C00E00532945 /* Debug */,
+				739016601D06C00E00532945 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		739016611D06C00E00532945 /* Build configuration list for PBXNativeTarget "saoma" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				739016621D06C00E00532945 /* Debug */,
+				739016631D06C00E00532945 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 739016421D06C00E00532945 /* Project object */;
+}
